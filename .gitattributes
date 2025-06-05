@@ -1,0 +1,31 @@
+# 자동 줄바꿈 및 텍스트 인코딩 통일
+* text=auto
+
+# Unity YAML 설정 파일은 줄바꿈 무시 없이 비교 가능하게
+*.unity text
+*.prefab text
+*.mat text
+*.anim text
+*.asset text
+*.controller text
+*.overrideController text
+*.mask text
+*.meta text
+
+# C# 및 코드 파일은 LF 줄바꿈으로 통일
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+
+# 바이너리 파일은 줄바꿈 처리 안 함
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.fbx binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.ttf binary
+*.otf binary
+*.mp4 binary
